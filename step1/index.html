@@ -1,0 +1,16 @@
+<html>
+  <body>
+    <input id="newTodo" />
+    <button onclick="addTodo()">Add todo</button>
+    <ol id="todoList"></ol>
+    <script>
+      const addTodo = () => {
+        const newTodoInput = document.getElementById('newTodo');
+        let currentTodoList = document.getElementById('todoList').innerHTML;
+        currentTodoList += `<li>${newTodoInput.value}</li>`;
+        document.getElementById('todoList').innerHTML = currentTodoList;
+        newTodoInput.value = '';
+      }
+    </script>
+  </body>
+</html>
