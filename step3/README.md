@@ -11,7 +11,7 @@ Next, find out really important that features of web application, and your would
 
 ```html
 <input id="newTodo" />
-  <button id="addTodo">Add todo</button>
+<button id="addTodo">Add todo</button>
 <ol id="todoList"></ol>
 ```
 
