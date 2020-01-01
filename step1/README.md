@@ -19,4 +19,4 @@
 </html>
 ```
 
-I don't know how to test HTML dom without framework? But I think I should disassembling HTML and JavaScript first, follow [hear]()!
+I don't know how to test HTML dom without framework? But I think I should disassembling HTML and JavaScript first, follow [hear](https://github.com/ms314006/dom-manipulation-of-jest/tree/master/step2)!
