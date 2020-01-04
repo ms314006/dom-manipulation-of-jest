@@ -4,7 +4,8 @@
   "description": "The now! HTML is HTML, JavaScript is JavaScript, so we can would unit test focus on JavaScript! but we not have DOM, why can manipulation DOM to target JavaScript? you can make a virtual DOM to unit test need!",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test-coverage": "jest --coverage"
   },
   "keywords": [],
   "author": "",
